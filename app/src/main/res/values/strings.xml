@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Buku Tamu Wajib Lapor</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="id">12</string>
+    <string name="phone">Phone</string>
+    <string name="nik">NIK</string>
+    <string name="_6285730xxxxxx">6285730xxxxxx</string>
+    <string name="dvs_gmail_com">dvs*****@gmail.com</string>
+    <string name="_11_04_2020">11/04/2020</string>
+    <string name="jenguk_bu_rw">Jenguk Bu RW</string>
+    <string name="mojokerto">mojokerto</string>
+    <string name="tujuan">Keperluan</string>
+    <string name="kontak_pengunjung">Kontak Pengunjung</string>
+    <string name="no_hp">no hp</string>
+    <string name="email">Email</string>
+    <string name="kembali">kembali</string>
+    <string name="panggilan_telefone">Panggilan Telefone</string>
+    <string name="laporkan_npolisi">Laporkan\nPolisi</string>
+    <string name="hubungi_email">Hubungi Email</string>
+    <string name="hubungi_wa">Hubungi WA</string>
+    <string name="next">Next</string>
+    <string name="contact_us_wa">Contact US WA</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="davis_aji">Davis Aji</string>
+    <string name="cari_berdasarkan_nama">Cari berdasarkan Nama</string>
+    <string name="reset">reset</string>
+    <string name="adddatadummy">Add Data Dummy</string>
+</resources>
