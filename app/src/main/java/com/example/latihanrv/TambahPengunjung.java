@@ -54,7 +54,7 @@ public class TambahPengunjung extends AppCompatActivity {
             ET.setTujuan(tujuan.getText().toString().trim());
             DBModel mp = new DBModel(this);
             mp.tambahPengunjung(ET);
-            Message = "Data berhasil disimpan";
+            Message = "Data berhasil disimpan.";
             finish();
         }
         Toast.makeText(this, Message,Toast.LENGTH_LONG).show();
