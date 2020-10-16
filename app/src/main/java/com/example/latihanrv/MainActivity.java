@@ -7,13 +7,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements AdapterContact.OnContactClickListener{
+public class MainActivity extends AppCompatActivity implements AdapterRV.OnContactClickListener{
     public RecyclerView rv;
     private DBModel dbm;
     private EditText cari;
@@ -57,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements AdapterContact.On
             ));
         }
         //-----------------------------
-        AdapterContact AC = new AdapterContact(listPengunjung);
+        AdapterRV AC = new AdapterRV(listPengunjung);
         AC.setListener(this);
         rv.setAdapter(AC);
         rv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
@@ -98,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements AdapterContact.On
             ));
         }
         //-----------------------------
-        AdapterContact AC = new AdapterContact(listPengunjung);
+        AdapterRV AC = new AdapterRV(listPengunjung);
         AC.setListener(this);
         rv.setAdapter(AC);
         rv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));

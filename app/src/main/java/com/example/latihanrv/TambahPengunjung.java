@@ -58,7 +58,6 @@ public class TambahPengunjung extends AppCompatActivity {
             finish();
         }
         Toast.makeText(this, Message,Toast.LENGTH_LONG).show();
-
     }
     public static boolean isValidEmail(CharSequence email) {
         return (Patterns.EMAIL_ADDRESS.matcher(email).matches());

@@ -10,20 +10,20 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class AdapterContact extends RecyclerView.Adapter<AdapterContact.holderku> {
+public class AdapterRV extends RecyclerView.Adapter<AdapterRV.holderku> {
     private List<ModelRV> listPengunjung;
-    public AdapterContact(List<ModelRV> listPengunjung){
+    public AdapterRV(List<ModelRV> listPengunjung){
         this.listPengunjung = listPengunjung;
     }
     @NonNull
     @Override
-    public AdapterContact.holderku onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public AdapterRV.holderku onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //Hubungkan layout item contact ke adapter dan view holder
         View vh = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_rv,parent,false);
         return new holderku(vh);
     }
     @Override
-    public void onBindViewHolder(@NonNull AdapterContact.holderku holder, int position) {
+    public void onBindViewHolder(@NonNull AdapterRV.holderku holder, int position) {
         ModelRV item = listPengunjung.get(position);
         holder.txtNama.setText(item.getNama());
         holder.txtAlamat.setText(item.getAsal());
