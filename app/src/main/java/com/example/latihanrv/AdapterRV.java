@@ -5,14 +5,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterRV extends RecyclerView.Adapter<AdapterRV.holderku> {
-    private List<ModelRV> listPengunjung;
-    public AdapterRV(List<ModelRV> listPengunjung){
+    private ArrayList<ModelRV> listPengunjung;
+    public AdapterRV(ArrayList<ModelRV> listPengunjung){
         this.listPengunjung = listPengunjung;
     }
     @NonNull
